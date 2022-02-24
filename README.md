@@ -14,7 +14,7 @@ The functions and demos also provide means to construct SGWT frame [2], Meyer-li
 
 > [4] D. I. Shuman, et al., 2015. Spectrum-adapted tight graph wavelet and vertex-frequency frames, IEEE Trans. Signal Process., vol. 63(16), pp. 4223-4235.
 
-For installation, simply unpack the directory, and then type in Matlab command window: `spg_setpath`
+For installation, simply unpack the directory, and then call: `spg_setpath`
 
 You may then run the following demos which replicate the some of results presented in [1]: 
 
@@ -28,15 +28,13 @@ You may then run the following demos which replicate the some of results present
 
 Demos for replicating the other results can also be constructed and provided upon request.
 
-
 The following demo can be used to construct signal-adapted systems of spectral kernels using your own graph and graph signal set:
 
 `spg_demo_your_data_frame(...)`*
       
-
 The following demo can be used to construct signal-adapted systems of spectral kernels using your own graph and graph signal set, and to decompose a set of graph signals using the constructed frame (not necessarily the same signals used to construct the frame):
 
 `spg_demo_your_data_decompose(...)`*
 
-*This demo requires inputs; read the demo's help function for instructions.
+*Set inputs as specified in script's help function.
 
