@@ -1,6 +1,6 @@
 # SPG: signal processing on graphs
 
-This package contains code for constructing signal-adapted systems of spectral kernels for a given graph and a given graph signal set, based on theory presented in the following [paper] (https://doi.org/10.1109/TSP.2016.2591513):
+This package contains code for constructing signal-adapted systems of spectral kernels for a given graph and a given graph signal set, based on theory presented in the following [paper](https://doi.org/10.1109/TSP.2016.2591513):
 
 > [1] Behjat et al., 2016. Signal-adapted tight frames on graphs. IEEE Trans. Signal Process.
 
